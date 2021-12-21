@@ -60,7 +60,7 @@ header .site-top-bar__logo-install {
           align-items: center;
 }
 
-header .site-top-bar__logo a {
+header .site-top-bar__logo{
   font-size: 20px;
   font-family: 'Montserrat-700', sans-serif;
   text-transform: uppercase;
@@ -668,7 +668,7 @@ footer .footer-content__disigned-by .footer-content__designed-by-title {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  header .site-top-bar__logo {
+  header .site-top-bar__logo{
     display: none;
   }
   header .promo__site-title {
