@@ -142,8 +142,7 @@ header .promo__button {
 .grid-block {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (60px)[12];
-      grid-template-columns: repeat(12, 60px);
+  grid-template-columns: repeat(12, 60px);
   gap: 20px;
 }
 
@@ -198,22 +197,19 @@ header .promo__button {
 }
 
 #section-01 .how-works .step-1 {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
+  grid-column-start: 1;
   grid-column-end: 5;
   background-image: url("../images/Step_1.jpg");
 }
 
 #section-01 .how-works .step-2 {
-  -ms-grid-column: 5;
-      grid-column-start: 5;
+  grid-column-start: 5;
   grid-column-end: 9;
   background-image: url("../images/Step_2.jpg");
 }
 
 #section-01 .how-works .step-3 {
-  -ms-grid-column: 9;
-      grid-column-start: 9;
+  grid-column-start: 9;
   grid-column-end: 13;
   background-image: url("../images/Step_3.jpg");
 }
@@ -348,8 +344,7 @@ header .promo__button {
 }
 
 #section-03 .gallery-grid {
-  -ms-grid-rows: (310px)[3];
-      grid-template-rows: repeat(3, 310px);
+  grid-template-rows: repeat(3, 310px);
 }
 
 #section-03 .gallery-grid__background-mask {
@@ -567,7 +562,6 @@ footer .footer-content__disigned-by .footer-content__designed-by-title {
     width: 748px;
   }
   .grid-block {
-    -ms-grid-columns: (44px)[12];
         grid-template-columns: repeat(12, 44px);
   }
   #section-02 .meet-partners {
@@ -600,7 +594,6 @@ footer .footer-content__disigned-by .footer-content__designed-by-title {
     width: 600px;
   }
   .grid-block {
-    -ms-grid-columns: (40px)[12];
         grid-template-columns: repeat(12, 40px);
     gap: 10px;
   }
@@ -631,7 +624,6 @@ footer .footer-content__disigned-by .footer-content__designed-by-title {
     margin-bottom: 25px;
   }
   .grid-block {
-    -ms-grid-columns: (33px)[12];
         grid-template-columns: repeat(12, 33px);
     -webkit-column-gap: 5px;
             column-gap: 5px;
@@ -643,7 +635,6 @@ footer .footer-content__disigned-by .footer-content__designed-by-title {
     grid-column: 1 / 13;
   }
   #section-01 .how-works {
-    -ms-grid-rows: (240px)[3];
         grid-template-rows: repeat(3, 240px);
   }
   #section-01 .how-works .ips {
@@ -653,11 +644,9 @@ footer .footer-content__disigned-by .footer-content__designed-by-title {
     padding: 0 20px 30px;
   }
   #section-02 .meet-partners {
-    -ms-grid-rows: (205px)[4];
         grid-template-rows: repeat(4, 205px);
   }
   #section-03 .gallery-grid {
-    -ms-grid-rows: (120px)[7];
         grid-template-rows: repeat(7, 120px);
   }
   header {
@@ -777,7 +766,6 @@ footer .footer-content__disigned-by .footer-content__designed-by-title {
     width: 295px;
   }
   .grid-block {
-    -ms-grid-columns: (20px)[12];
         grid-template-columns: repeat(12, 20px);
     gap: 5px;
   }
